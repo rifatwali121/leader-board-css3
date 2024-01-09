@@ -13,11 +13,18 @@ body{
     padding: 30px;
 
 }
+hr{
+    border: 1px solid #D1D1D1;
+    
+}
 main{
     display: flex;
     justify-content: center;
 }
 /* top player style */
+.top-palyers{
+    margin-bottom: 30px;
+}
 .section-title{
     color: #562EFF;
     font-family: Poppins;
@@ -25,11 +32,14 @@ main{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 3px;
+    margin-bottom: 20px;
 
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 .player img{
     width: 56px;
@@ -42,4 +52,5 @@ main{
 }
 .player-name{
     margin-left: 16px;
+    font-size: 18px;
 }
